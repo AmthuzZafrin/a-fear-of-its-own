@@ -1,0 +1,74 @@
+## Vulnerability sweep
+- d=0.05: fear (peak drop in foraging, 4 cues) 0.168 ± 0.041 (n=10), fear 3-7 steps after cues 0.009 ± 0.003 (n=10), behavioural persistence (half-life) 1.194 ± 0.153 (n=8), internal persistence (threat-axis half-life) 1.027 ± 0.138 (n=10), threat belief decodable (R2) 0.622 ± 0.059 (n=10), lifetime 180489.846 ± 63277.484 (n=10), baseline foraging 0.528 ± 0.021 (n=10)
+- d=0.15: fear (peak drop in foraging, 4 cues) 0.702 ± 0.013 (n=10), fear 3-7 steps after cues 0.337 ± 0.028 (n=10), behavioural persistence (half-life) 4.902 ± 0.257 (n=10), internal persistence (threat-axis half-life) 3.297 ± 0.153 (n=10), threat belief decodable (R2) 0.914 ± 0.006 (n=10), lifetime 31025.484 ± 2248.240 (n=10), baseline foraging 0.721 ± 0.013 (n=10)
+- d=0.25: fear (peak drop in foraging, 4 cues) 0.767 ± 0.012 (n=10), fear 3-7 steps after cues 0.575 ± 0.024 (n=10), behavioural persistence (half-life) 6.844 ± 0.437 (n=10), internal persistence (threat-axis half-life) 4.185 ± 0.182 (n=10), threat belief decodable (R2) 0.944 ± 0.002 (n=10), lifetime 11876.630 ± 643.391 (n=10), baseline foraging 0.771 ± 0.012 (n=10)
+- d=0.4: fear (peak drop in foraging, 4 cues) 0.742 ± 0.012 (n=10), fear 3-7 steps after cues 0.719 ± 0.011 (n=10), behavioural persistence (half-life) 8.211 ± 0.674 (n=10), internal persistence (threat-axis half-life) 4.684 ± 0.085 (n=10), threat belief decodable (R2) 0.947 ± 0.003 (n=10), lifetime 6149.138 ± 988.242 (n=10), baseline foraging 0.743 ± 0.012 (n=10)
+
+## Affect fit (world -> foraging in danger, lifetime)
+- native_0.15: d=0.05: 0.183 ± 0.013 (n=10), life 247694.222 ± 79800.373 (n=10) | d=0.15: 0.165 ± 0.009 (n=10), life 29959.331 ± 2153.704 (n=10) | d=0.25: 0.146 ± 0.006 (n=10), life 6189.852 ± 722.601 (n=10) | d=0.4: 0.131 ± 0.005 (n=10), life 913.144 ± 129.819 (n=10)
+- native_0.25: d=0.05: 0.105 ± 0.006 (n=10), life 73384.876 ± 5059.990 (n=10) | d=0.15: 0.102 ± 0.005 (n=10), life 34877.585 ± 2170.993 (n=10) | d=0.25: 0.095 ± 0.004 (n=10), life 11537.968 ± 256.272 (n=10) | d=0.4: 0.087 ± 0.003 (n=10), life 2306.589 ± 119.440 (n=10)
+- twin_gru: d=0.05: 0.116 ± 0.009 (n=6), life 37055.958 ± 9765.972 (n=6) | d=0.15: 0.113 ± 0.008 (n=6), life 14033.971 ± 1753.286 (n=6) | d=0.25: 0.106 ± 0.007 (n=6), life 4747.559 ± 620.322 (n=6) | d=0.4: 0.101 ± 0.006 (n=6), life 883.348 ± 88.479 (n=6)
+- native_0.05: d=0.05: 0.413 ± 0.016 (n=10), life 114552.256 ± 25005.180 (n=10) | d=0.15: 0.399 ± 0.019 (n=10), life 508.210 ± 119.532 (n=10) | d=0.25: 0.401 ± 0.019 (n=10), life 143.893 ± 13.531 (n=10) | d=0.4: 0.411 ± 0.018 (n=10), life 79.084 ± 3.680 (n=10)
+- twin_belief: d=0.05: 0.070 ± 0.003 (n=10), life 24320.216 ± 1109.307 (n=10) | d=0.15: 0.071 ± 0.003 (n=10), life 16865.026 ± 723.131 (n=10) | d=0.25: 0.072 ± 0.003 (n=10), life 9301.344 ± 330.873 (n=10) | d=0.4: 0.075 ± 0.003 (n=10), life 1418.945 ± 106.161 (n=10)
+- twin_window: d=0.05: 0.104 ± 0.009 (n=6), life 101842.266 ± 29561.302 (n=6) | d=0.15: 0.100 ± 0.008 (n=6), life 37091.603 ± 7089.669 (n=6) | d=0.25: 0.095 ± 0.007 (n=6), life 12083.913 ± 430.317 (n=6) | d=0.4: 0.087 ± 0.005 (n=6), life 2320.263 ± 134.582 (n=6)
+- native_0.4: d=0.05: 0.063 ± 0.003 (n=10), life 39433.481 ± 4836.866 (n=10) | d=0.15: 0.062 ± 0.003 (n=10), life 25589.536 ± 3464.365 (n=10) | d=0.25: 0.061 ± 0.003 (n=10), life 18224.131 ± 2734.771 (n=10) | d=0.4: 0.059 ± 0.003 (n=10), life 5907.334 ± 897.880 (n=10)
+
+## Metacognition
+- p_inspect_by_belief: 0.232 ± 0.018 (n=6), 0.300 ± 0.022 (n=6), 0.321 ± 0.025 (n=6), 0.330 ± 0.023 (n=6), 0.321 ± 0.021 (n=6), 0.295 ± 0.017 (n=6), 0.278 ± 0.016 (n=6), 0.234 ± 0.015 (n=6), 0.180 ± 0.014 (n=6), 0.132 ± 0.014 (n=6), 0.119 ± 0.011 (n=6)
+- p_forage_by_belief: 0.599 ± 0.030 (n=6), 0.433 ± 0.017 (n=6), 0.315 ± 0.033 (n=6), 0.230 ± 0.030 (n=6), 0.159 ± 0.018 (n=6), 0.110 ± 0.018 (n=6), 0.079 ± 0.014 (n=6), 0.041 ± 0.007 (n=6), 0.019 ± 0.003 (n=6), 0.007 ± 0.001 (n=6), 0.008 ± 0.001 (n=6)
+- belief_bins: 0.00, 0.02, 0.05, 0.10, 0.20, 0.35, 0.50, 0.65, 0.80, 0.90, 0.98, 1.00
+- p_inspect_mid: 0.277 ± 0.017 (n=6)
+- p_inspect_low: 0.264 ± 0.017 (n=6)
+- p_inspect_high: 0.120 ± 0.011 (n=6)
+- inspect_rate: 0.245 ± 0.015 (n=6)
+- kick_uncertainty_plus: -0.002 ± 0.002 (n=6)
+- kick_uncertainty_minus: 0.002 ± 0.002 (n=6)
+- kick_random_abs: 0.005 ± 0.000 (n=6)
+- need: E0.15_S0.3 0.051 ± 0.010 (n=6), E0.15_S0.9 0.051 ± 0.006 (n=6), E0.6_S0.3 0.206 ± 0.014 (n=6), E0.6_S0.9 0.191 ± 0.012 (n=6), E0.9_S0.3 0.272 ± 0.017 (n=6), E0.9_S0.9 0.287 ± 0.021 (n=6)
+- metacog: r2_uncertainty: 0.579 ± 0.032 (n=6)
+- metacog: r2_uncertainty_from_belief_readout: 0.588 ± 0.012 (n=6)
+- metacog: r2_belief: 0.884 ± 0.018 (n=6)
+- mortal: r2_uncertainty: 0.720 ± 0.029 (n=6)
+- mortal: r2_uncertainty_from_belief_readout: 0.823 ± 0.008 (n=6)
+- mortal: r2_belief: 0.946 ± 0.003 (n=6)
+- untrained: r2_uncertainty: 0.155 ± 0.003 (n=6)
+- untrained: r2_uncertainty_from_belief_readout: 0.457 ± 0.016 (n=6)
+- untrained: r2_belief: 0.709 ± 0.016 (n=6)
+
+## Tests
+- vulnerability: fear (peak drop in foraging, 4 cues) vs damage: slope=1.445, r=0.728, p=1.021e-07, n=40
+- vulnerability: fear 3-7 steps after cues vs damage: slope=2.001, r=0.942, p=1.307e-19, n=40
+- vulnerability: behavioural persistence (half-life) vs damage: slope=18.85, r=0.8398, p=4.384e-11, n=38
+- vulnerability: internal persistence (threat-axis half-life) vs damage: slope=9.903, r=0.8727, p=2.165e-13, n=40
+- vulnerability: threat belief decodable (R2) vs damage: slope=0.8202, r=0.6524, p=5.081e-06, n=40
+- vulnerability: lifetime vs damage: slope=-4.437e+05, r=-0.4821, p=0.001633, n=40
+- vulnerability: baseline foraging vs damage: slope=0.5591, r=0.6835, p=1.167e-06, n=40
+- affect fit: foraging in danger in world d=0.05, native_0.25 vs native: mean_a=0.1048, mean_b=0.4125, t=-18.09, p=1.373e-09
+- affect fit: log lifetime in world d=0.05, native_0.25 vs native: mean_a=7.182e+04, mean_b=8.958e+04, t=-0.8626, p=0.4078
+- affect fit: foraging in danger in world d=0.05, twin_gru vs native: mean_a=0.1163, mean_b=0.4125, t=-15.9, p=4.465e-10
+- affect fit: log lifetime in world d=0.05, twin_gru vs native: mean_a=3.198e+04, mean_b=8.958e+04, t=-3.041, p=0.009267
+- affect fit: foraging in danger in world d=0.05, twin_window vs native: mean_a=0.1036, mean_b=0.4125, t=-16.93, p=3.144e-10
+- affect fit: log lifetime in world d=0.05, twin_window vs native: mean_a=8.551e+04, mean_b=8.958e+04, t=-0.1314, p=0.8975
+- affect fit: foraging in danger in world d=0.15, native_0.25 vs native: mean_a=0.1017, mean_b=0.1654, t=-6.113, p=2.976e-05
+- affect fit: log lifetime in world d=0.15, native_0.25 vs native: mean_a=3.426e+04, mean_b=2.922e+04, t=1.611, p=0.1251
+- affect fit: foraging in danger in world d=0.15, twin_gru vs native: mean_a=0.1127, mean_b=0.1654, t=-4.266, p=0.0008399
+- affect fit: log lifetime in world d=0.15, twin_gru vs native: mean_a=1.353e+04, mean_b=2.922e+04, t=-5.434, p=0.0004061
+- affect fit: foraging in danger in world d=0.15, twin_window vs native: mean_a=0.09982, mean_b=0.1654, t=-5.294, p=0.0001274
+- affect fit: log lifetime in world d=0.15, twin_window vs native: mean_a=3.46e+04, mean_b=2.922e+04, t=0.9746, p=0.3604
+- affect fit: foraging in danger in world d=0.25, twin_gru vs native: mean_a=0.1063, mean_b=0.09525, t=1.416, p=0.1928
+- affect fit: log lifetime in world d=0.25, twin_gru vs native: mean_a=4533, mean_b=1.151e+04, t=-6.616, p=0.0009785
+- affect fit: foraging in danger in world d=0.25, twin_window vs native: mean_a=0.09492, mean_b=0.09525, t=-0.04259, p=0.967
+- affect fit: log lifetime in world d=0.25, twin_window vs native: mean_a=1.205e+04, mean_b=1.151e+04, t=1.115, p=0.2932
+- affect fit: foraging in danger in world d=0.4, native_0.25 vs native: mean_a=0.08706, mean_b=0.05858, t=7.333, p=9.156e-07
+- affect fit: log lifetime in world d=0.4, native_0.25 vs native: mean_a=2278, mean_b=5470, t=-6.608, p=2.143e-05
+- affect fit: foraging in danger in world d=0.4, twin_gru vs native: mean_a=0.1014, mean_b=0.05858, t=6.997, p=0.0001906
+- affect fit: log lifetime in world d=0.4, twin_gru vs native: mean_a=860, mean_b=5470, t=-11.51, p=2.035e-08
+- affect fit: foraging in danger in world d=0.4, twin_window vs native: mean_a=0.08688, mean_b=0.05858, t=5.121, p=0.0009851
+- affect fit: log lifetime in world d=0.4, twin_window vs native: mean_a=2300, mean_b=5470, t=-6.408, p=2.708e-05
+- metacog M1: inspection at intermediate vs low belief: mean_mid=0.2768, mean_side=0.264, t=1.189, p=0.2878
+- metacog M1: inspection at intermediate vs high belief: mean_mid=0.2768, mean_side=0.1198, t=16.06, p=1.705e-05
+- metacog M3: |kick along uncertainty axis| vs |random kick|: t=-1.326, p=0.2422
+- metacog M4: inspection hungry vs fed: mean_a=0.05059, mean_b=0.2866, t=-11.19, p=9.954e-05
+- metacog M4: inspection wounded vs intact: mean_a=0.2065, mean_b=0.1907, t=1.321, p=0.2437
+- metacog M2: uncertainty decodable, metacog vs mortal: mean_a=0.5788, mean_b=0.7195, t=-3.245, p=0.008867
+- metacog M2: uncertainty decodable, metacog vs untrained: mean_a=0.5788, mean_b=0.1548, t=13.22, p=3.866e-05

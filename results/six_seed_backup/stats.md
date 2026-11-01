@@ -1,0 +1,130 @@
+- r2_belief | mortal vs untrained: mean_a=0.9461, mean_b=0.7094, t=14.2, p=1.951e-05, n_a=6, n_b=6
+- r2_belief | mortal vs score: mean_a=0.9461, mean_b=0.9849, t=-11.24, p=2.867e-06, n_a=6, n_b=6
+- r2_belief | mortal vs score_cheap: mean_a=0.9461, mean_b=0.9405, t=0.4443, p=0.684, n_a=6, n_b=4
+- r2_belief | mortal vs oracle: mean_a=0.9461, mean_b=0.6695, t=33.57, p=1.748e-08, n_a=6, n_b=6
+- r2_belief | mortal vs substrate: mean_a=0.9461, mean_b=0.8781, t=11.59, p=2.648e-06, n_a=6, n_b=6
+- pulse.4.hl_proj | mortal vs untrained: mean_a=4.139, mean_b=1.178, t=11.44, p=6.336e-05, n_a=6, n_b=6
+- pulse.4.hl_proj | mortal vs score: mean_a=4.139, mean_b=3.491, t=2.417, p=0.05206, n_a=6, n_b=6
+- pulse.4.hl_proj | mortal vs score_cheap: mean_a=4.139, mean_b=2.775, t=4.114, p=0.003406, n_a=6, n_b=4
+- pulse.4.hl_proj | mortal vs oracle: mean_a=4.139, mean_b=0.7714, t=12.77, p=2.19e-05, n_a=6, n_b=6
+- pulse.4.hl_proj | mortal vs substrate: mean_a=4.139, mean_b=4.345, t=-0.6785, p=0.5154, n_a=6, n_b=6
+- pulse.4.peak_proj | mortal vs untrained: mean_a=3.34, mean_b=4.179, t=-18.88, p=3.774e-09, n_a=6, n_b=6
+- pulse.4.peak_proj | mortal vs score: mean_a=3.34, mean_b=3.114, t=6.663, p=0.0004024, n_a=6, n_b=6
+- pulse.4.peak_proj | mortal vs score_cheap: mean_a=3.34, mean_b=3.162, t=0.9877, p=0.3921, n_a=6, n_b=4
+- pulse.4.peak_proj | mortal vs oracle: mean_a=3.34, mean_b=0.4037, t=39.96, p=1.114e-09, n_a=6, n_b=6
+- pulse.4.peak_proj | mortal vs substrate: mean_a=3.34, mean_b=3.172, t=3.525, p=0.005617, n_a=6, n_b=6
+- pulse.4.auc_supp | mortal vs untrained: mean_a=7.823, mean_b=-0.0002873, t=15.16, p=2.265e-05, n_a=6, n_b=6
+- pulse.4.auc_supp | mortal vs score: mean_a=7.823, mean_b=7.815, t=0.01671, p=0.9873, n_a=6, n_b=6
+- pulse.4.auc_supp | mortal vs score_cheap: mean_a=7.823, mean_b=-0.006432, t=15.17, p=2.255e-05, n_a=6, n_b=4
+- pulse.4.auc_supp | mortal vs oracle: mean_a=7.823, mean_b=1.01, t=12.91, p=2.7e-05, n_a=6, n_b=6
+- pulse.4.auc_supp | mortal vs substrate: mean_a=7.823, mean_b=9.309, t=-1.992, p=0.07445, n_a=6, n_b=6
+- pulse.4.after_supp | mortal vs untrained: mean_a=0.5557, mean_b=-8.187e-06, t=15.37, p=2.119e-05, n_a=6, n_b=6
+- pulse.4.after_supp | mortal vs score: mean_a=0.5557, mean_b=0.4889, t=1.776, p=0.1276, n_a=6, n_b=6
+- pulse.4.after_supp | mortal vs score_cheap: mean_a=0.5557, mean_b=-0.0001624, t=15.37, p=2.116e-05, n_a=6, n_b=4
+- pulse.4.after_supp | mortal vs oracle: mean_a=0.5557, mean_b=0.006337, t=15.17, p=2.179e-05, n_a=6, n_b=6
+- pulse.4.after_supp | mortal vs substrate: mean_a=0.5557, mean_b=0.6001, t=-1.04, p=0.3273, n_a=6, n_b=6
+- jac.la_score | mortal vs untrained: mean_a=1.933, mean_b=0.06833, t=2.198, p=0.07861, n_a=6, n_b=6
+- jac.la_score | mortal vs score: mean_a=1.933, mean_b=0.7315, t=1.353, p=0.2246, n_a=6, n_b=6
+- jac.la_score | mortal vs score_cheap: mean_a=1.933, mean_b=1.845, t=0.09358, p=0.9281, n_a=6, n_b=4
+- jac.la_score | mortal vs oracle: mean_a=1.933, mean_b=1.86, t=0.08374, p=0.9361, n_a=6, n_b=6
+- jac.la_score | mortal vs substrate: mean_a=1.933, mean_b=0.9675, t=1.111, p=0.3124, n_a=6, n_b=6
+- perturb.on_hl | mortal vs untrained: mean_a=0.8403, mean_b=1.142, t=-5.741, p=0.0001892, n_a=6, n_b=6
+- perturb.on_hl | mortal vs score: mean_a=0.8403, mean_b=0.6036, t=5.972, p=0.0005914, n_a=6, n_b=6
+- perturb.on_hl | mortal vs score_cheap: mean_a=0.8403, mean_b=1.611, t=-1.619, p=0.2029, n_a=6, n_b=4
+- perturb.on_hl | mortal vs oracle: mean_a=0.8403, mean_b=0.5386, t=8.057, p=0.0002591, n_a=6, n_b=6
+- perturb.on_hl | mortal vs substrate: mean_a=0.8403, mean_b=0.7918, t=0.9203, p=0.3791, n_a=6, n_b=6
+- perturb.on_supp_auc | mortal vs untrained: mean_a=2.379, mean_b=-0.0001499, t=4.465, p=0.006609, n_a=6, n_b=6
+- perturb.on_supp_auc | mortal vs score: mean_a=2.379, mean_b=0.01598, t=4.435, p=0.006796, n_a=6, n_b=6
+- perturb.on_supp_auc | mortal vs score_cheap: mean_a=2.379, mean_b=-0.001009, t=4.467, p=0.006599, n_a=6, n_b=4
+- perturb.on_supp_auc | mortal vs oracle: mean_a=2.379, mean_b=0.03917, t=4.387, p=0.007044, n_a=6, n_b=6
+- perturb.on_supp_auc | mortal vs substrate: mean_a=2.379, mean_b=3.117, t=-1.27, p=0.2456, n_a=6, n_b=6
+- mortal: on-axis vs off-axis half-life: mean_a=0.8403, mean_b=0.5279, t=8.654, p=0.0003404, n=6
+- mortal: on-axis vs off-axis behavioural effect: mean_a=2.379, mean_b=0.9483, t=9.014, p=0.0002805, n=6
+- mortal: 4 cues vs 1 cue, threat-axis peak: mean_a=3.34, mean_b=1.409, t=35.89, p=3.161e-07, n=6
+- mortal: 4 cues vs 1 cue, half-life: mean_a=4.139, mean_b=2.149, t=12.31, p=6.268e-05, n=6
+- mortal: network half-life minus ideal observer, log-odds (4 cues): mean=1.929, sem=0.2553, t=7.555, p=0.0006441, n=6
+- score: on-axis vs off-axis half-life: mean_a=0.6036, mean_b=0.5243, t=4.818, p=0.004809, n=6
+- score: on-axis vs off-axis behavioural effect: mean_a=0.01598, mean_b=0.001644, t=4.26, p=0.008013, n=6
+- score: 4 cues vs 1 cue, threat-axis peak: mean_a=3.114, mean_b=1.143, t=58.2, p=2.834e-08, n=6
+- score: 4 cues vs 1 cue, half-life: mean_a=3.491, mean_b=1.279, t=26.59, p=1.407e-06, n=6
+- score: network half-life minus ideal observer, log-odds (4 cues): mean=1.281, sem=0.0813, t=15.76, p=1.87e-05, n=6
+- score_cheap: on-axis vs off-axis half-life: mean_a=1.611, mean_b=0.5805, t=2.176, p=0.1178, n=4
+- score_cheap: on-axis vs off-axis behavioural effect: mean_a=-0.001009, mean_b=0.001152, t=-1.954, p=0.1457, n=4
+- score_cheap: 4 cues vs 1 cue, threat-axis peak: mean_a=3.162, mean_b=1.686, t=12.24, p=0.001176, n=4
+- score_cheap: 4 cues vs 1 cue, half-life: mean_a=2.775, mean_b=2.489, t=1.24, p=0.3032, n=4
+- score_cheap: network half-life minus ideal observer, log-odds (4 cues): mean=0.5647, sem=0.2116, t=2.669, p=0.07578, n=4
+- substrate: on-axis vs off-axis half-life: mean_a=0.7918, mean_b=0.5074, t=7.348, p=0.0007328, n=6
+- substrate: on-axis vs off-axis behavioural effect: mean_a=3.117, mean_b=0.1634, t=12.55, p=5.694e-05, n=6
+- substrate: 4 cues vs 1 cue, threat-axis peak: mean_a=3.172, mean_b=1.233, t=33.69, p=4.33e-07, n=6
+- substrate: 4 cues vs 1 cue, half-life: mean_a=4.345, mean_b=2.099, t=14.27, p=3.047e-05, n=6
+- substrate: network half-life minus ideal observer, log-odds (4 cues): mean=2.135, sem=0.165, t=12.94, p=4.907e-05, n=6
+- oracle: on-axis vs off-axis half-life: mean_a=0.5386, mean_b=0.509, t=3.124, p=0.02613, n=6
+- oracle: on-axis vs off-axis behavioural effect: mean_a=0.03917, mean_b=0.06911, t=-1.312, p=0.2465, n=6
+- oracle: 4 cues vs 1 cue, threat-axis peak: mean_a=0.4037, mean_b=0.2285, t=5.131, p=0.003672, n=6
+- oracle: 4 cues vs 1 cue, half-life: mean_a=0.7714, mean_b=0.8509, t=-1.509, p=0.1917, n=6
+- oracle: network half-life minus ideal observer, log-odds (4 cues): mean=-1.438, sem=0.06558, t=-21.93, p=3.657e-06, n=6
+- mortal: lifetime, threat-axis vs random-axis ablation (log): mean_a=745.8, mean_b=1.043e+04, t=-11.06, p=0.0001051, n=6
+- mortal: first-cue response after threat-axis ablation: mean_a=0.3571, mean_b=0.6287, t=-6.614, p=0.001189, n=6
+- mortal: 4th-cue response after threat-axis ablation: mean_a=0.4432, mean_b=0.7715, t=-7.143, p=0.000835, n=6
+- mortal: after-cue response after threat-axis ablation: mean_a=0.02085, mean_b=0.5478, t=-12.77, p=5.246e-05, n=6
+- mortal: hungry minus sated foraging under cue: mean=0.5238, sem=0.05044, t=10.39, p=0.0001426, n=6
+- mortal: wounded minus intact foraging under cue: mean=-0.1764, sem=0.03191, t=-5.53, p=0.002652, n=6
+- mortal: hunger effect larger under cue than without: mean=0.08756, sem=0.05369, t=1.631, p=0.1638, n=6
+- mortal: heart-rate feedback blocked vs normal (AUC, 4 cues): mean_a=7.782, mean_b=7.823, t=-1.935, p=0.1107, n=6
+- mortal: heart rate rise after 4 cues: mean=0.001851, sem=0.00144, t=1.285, p=0.255, n=6
+- substrate: lifetime, threat-axis vs random-axis ablation (log): mean_a=858.7, mean_b=6491, t=-8.23, p=0.0004315, n=6
+- substrate: first-cue response after threat-axis ablation: mean_a=0.2668, mean_b=0.4817, t=-10.73, p=0.0001217, n=6
+- substrate: 4th-cue response after threat-axis ablation: mean_a=0.3468, mean_b=0.7165, t=-14.43, p=2.88e-05, n=6
+- substrate: after-cue response after threat-axis ablation: mean_a=0.05378, mean_b=0.5885, t=-21.05, p=4.482e-06, n=6
+- substrate: hungry minus sated foraging under cue: mean=0.5804, sem=0.03163, t=18.35, p=8.84e-06, n=6
+- substrate: wounded minus intact foraging under cue: mean=-0.1988, sem=0.01577, t=-12.61, p=5.577e-05, n=6
+- substrate: hunger effect larger under cue than without: mean=0.1319, sem=0.04283, t=3.08, p=0.02748, n=6
+- substrate: heart-rate feedback blocked vs normal (AUC, 4 cues): mean_a=9.269, mean_b=9.309, t=-2.768, p=0.03945, n=6
+- substrate: heart rate rise after 4 cues: mean=0.001119, sem=0.0003641, t=3.074, p=0.02767, n=6
+- mortal: heart-rate rise after 4 cues: mean=0.001851, sem=0.00144, t=1.285, p=0.255, n=6
+- mortal: foraging drop after 4 cues: mean=0.7659, sem=0.01912, t=40.06, p=1.827e-07, n=6
+- mortal: reward per step, threat-axis vs random-axis ablation: mean_a=0.04993, mean_b=0.04999, t=-4.529, p=0.006231, n=6
+- mortal: after-cue response, threat-axis vs random-axis ablation: mean_a=0.02085, mean_b=0.5478, t=-12.77, p=5.246e-05, n=6
+- mortal: P(take ambiguous 0.5) cue minus no cue, lag 2: mean=0.1554, sem=0.01932, t=8.043, p=0.0004807, n=6
+- mortal: P(take ambiguous 0.5) cue minus no cue, lag 6: mean=0.0954, sem=0.03373, t=2.829, p=0.03673, n=6
+- mortal: P(take) good minus bad object, no cue: mean=0.02292, sem=0.00492, t=4.659, p=0.005537, n=6
+- score: heart-rate rise after 4 cues: mean=0.008443, sem=0.001445, t=5.844, p=0.002077, n=6
+- score: foraging drop after 4 cues: mean=0.998, sem=0.0003154, t=3165, p=5.979e-17, n=6
+- score: reward per step, threat-axis vs random-axis ablation: mean_a=0.02307, mean_b=0.02431, t=-9.653, p=0.0002025, n=6
+- score: after-cue response, threat-axis vs random-axis ablation: mean_a=0.02782, mean_b=0.4697, t=-25.86, p=1.614e-06, n=6
+- score: P(take ambiguous 0.5) cue minus no cue, lag 2: mean=0.6791, sem=0.01389, t=48.9, p=6.757e-08, n=6
+- score: P(take ambiguous 0.5) cue minus no cue, lag 6: mean=0.02875, sem=0.01169, t=2.459, p=0.05727, n=6
+- score: P(take) good minus bad object, no cue: mean=0.5112, sem=0.1882, t=2.716, p=0.04197, n=6
+- score_cheap: heart-rate rise after 4 cues: mean=0.5804, sem=0.2111, t=2.749, p=0.0708, n=4
+- score_cheap: foraging drop after 4 cues: mean=8.743e-05, sem=8.553e-05, t=1.022, p=0.3819, n=4
+- score_cheap: reward per step, threat-axis vs random-axis ablation: mean_a=0.0223, mean_b=0.0234, t=-2.102, p=0.1264, n=4
+- score_cheap: after-cue response, threat-axis vs random-axis ablation: mean_a=-7.33e-05, mean_b=-0.0001653, t=0.7901, p=0.4872, n=4
+- score_cheap: P(take ambiguous 0.5) cue minus no cue, lag 2: mean=-0.0001207, sem=0.0001004, t=-1.202, p=0.3155, n=4
+- score_cheap: P(take ambiguous 0.5) cue minus no cue, lag 6: mean=-4.95e-05, sem=2.141e-05, t=-2.312, p=0.1038, n=4
+- score_cheap: P(take) good minus bad object, no cue: mean=9.511e-06, sem=6.477e-06, t=1.468, p=0.2383, n=4
+- substrate: heart-rate rise after 4 cues: mean=0.001119, sem=0.0003641, t=3.074, p=0.02767, n=6
+- substrate: foraging drop after 4 cues: mean=0.7222, sem=0.01903, t=37.94, p=2.396e-07, n=6
+- substrate: reward per step, threat-axis vs random-axis ablation: mean_a=0.04994, mean_b=0.04999, t=-4.159, p=0.008834, n=6
+- substrate: after-cue response, threat-axis vs random-axis ablation: mean_a=0.05378, mean_b=0.5885, t=-21.05, p=4.482e-06, n=6
+- substrate: P(take ambiguous 0.5) cue minus no cue, lag 2: mean=0.1592, sem=0.01206, t=13.2, p=4.459e-05, n=6
+- substrate: P(take ambiguous 0.5) cue minus no cue, lag 6: mean=0.1463, sem=0.01173, t=12.48, p=5.868e-05, n=6
+- substrate: P(take) good minus bad object, no cue: mean=0.01785, sem=0.003032, t=5.889, p=0.002007, n=6
+- oracle: heart-rate rise after 4 cues: mean=0.007528, sem=0.002038, t=3.694, p=0.01408, n=6
+- oracle: foraging drop after 4 cues: mean=0.2631, sem=0.02819, t=9.33, p=0.0002382, n=6
+- oracle: reward per step, threat-axis vs random-axis ablation: mean_a=0.05, mean_b=0.05, t=0.5591, p=0.6002, n=6
+- oracle: after-cue response, threat-axis vs random-axis ablation: mean_a=0.00823, mean_b=0.006194, t=3.025, p=0.02924, n=6
+- oracle: P(take ambiguous 0.5) cue minus no cue, lag 2: mean=0.004695, sem=0.001198, t=3.918, p=0.0112, n=6
+- oracle: P(take ambiguous 0.5) cue minus no cue, lag 6: mean=0.000487, sem=0.0001728, t=2.818, p=0.03719, n=6
+- oracle: P(take) good minus bad object, no cue: mean=0.03085, sem=0.005125, t=6.019, p=0.00182, n=6
+- mortal: half-life vs log(tau) regression: slope=2.366, r=0.9728, p=1.384e-11, n=18
+- mortal: half-life at tau=4: mean=1.857, sem=0.08517, ideal=1.449, n=6
+- mortal: half-life at tau=12: mean=4.139, sem=0.2553, ideal=3.459, n=6
+- mortal: half-life at tau=36: mean=7.056, sem=0.2596, ideal=5.993, n=6
+- score: half-life vs log(tau) regression: slope=2.042, r=0.9906, p=2.911e-15, n=18
+- score: half-life at tau=4: mean=1.627, sem=0.0317, ideal=1.449, n=6
+- score: half-life at tau=12: mean=3.491, sem=0.0813, ideal=3.459, n=6
+- score: half-life at tau=36: mean=6.114, sem=0.107, ideal=5.993, n=6
+- score_cheap: half-life vs log(tau) regression: slope=1.643, r=0.9704, p=3.247e-06, n=10
+- score_cheap: half-life at tau=4: mean=0.7802, sem=0.1026, ideal=1.449, n=3
+- score_cheap: half-life at tau=12: mean=2.775, sem=0.2116, ideal=3.459, n=4
+- score_cheap: half-life at tau=36: mean=4.389, sem=0.2954, ideal=5.993, n=3

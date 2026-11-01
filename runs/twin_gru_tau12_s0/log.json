@@ -1,0 +1,1 @@
+{"mode": "mortal", "tau": 12.0, "seed": 0, "hidden": 64, "twin": "gru", "teacher": "runs/mortal_tau12_s0", "heldout_kl": 0.01659429139806889, "log": []}

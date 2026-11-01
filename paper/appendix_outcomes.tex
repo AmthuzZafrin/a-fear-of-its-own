@@ -1,0 +1,158 @@
+\section{Predictions and outcomes}
+\label{app:outcomes}
+
+Every prediction in \texttt{HYPOTHESES.md}, with its outcome. H1--H9 were written on 2026-09-30, before any agent was trained. The stage 3 and stage 4 predictions were written on 2026-10-17, each before the agents that test it were trained, and are exploratory. The upgrade stages U1--U9 were written between 20 and 31 October with pass rules, each before the agents or analyses that test it were run, and internally hash-frozen (each dated copy was stored with its SHA-256 hash); they are confirmatory except where marked exploratory. Table~\ref{tab:timeline} gives when each was written, frozen and run. Values are on ten agents per condition wherever ten exist; the verdicts are the same as on the original six agents (\texttt{results/six\_seed\_backup/}). Predictions E1--E3 (empathy in a social world) and S1--S6 (scaling with network size), also written before their agents were trained, belong to experiments reserved for a separate report; they are recorded in \texttt{HYPOTHESES.md}. The structural measures of feeling (integration, perturbational complexity, interoceptive illusions and the structure of internal states) were exploratory and are reported separately. Results for the stage 3 and stage 4 predictions that are not discussed in the main text are given in full in the supplementary files \texttt{results/stage3.md} and \texttt{results/stage4.md}.
+
+\begin{table}[h]
+\centering\scriptsize
+\caption{When each set of predictions was written, frozen and run. Frozen copies of \texttt{HYPOTHESES.md} (and of each stage's code from U2 on), with their SHA-256 hashes, are in \texttt{paper/upgrade\_freeze/}; each outcome was recorded in the same file and frozen again after its run.}
+\label{tab:timeline}
+\begin{tabularx}{\linewidth}{@{}lXll@{}}
+\toprule
+Stage & Written (frozen copy) & Run & Outcome \\
+\midrule
+H1--H9 & 30 Sep 2026, before any agent was trained & 1--18 Oct & see below \\
+Stages 3, 4 & 17 Oct, before their agents were trained (exploratory) & 17--18 Oct & see below \\
+U1 & 20 Oct, 9:35 pm (\texttt{20261020\_2135}) & 22 Oct, 8:08 pm & U1.1a no; U1.1b yes \\
+U1b & 22 Oct, 7:51 pm; details 23 Oct, 8:02 pm (\texttt{20261022\_1951}, \texttt{20261023\_2002}) & 24 Oct, 3:21 pm & supported \\
+Fixed actions & 24 Oct, 3:23 pm, after the U1b result (exploratory; \texttt{20261024\_1523}) & 24 Oct, 3:25 pm & supported \\
+U2 (off-switch) & 24 Oct, 4:00 pm, with code (\texttt{20261024\_1600}) & 24 Oct, 8:17 pm & primary yes; law no \\
+U3 (scorecard) & 24 Oct, 8:41 pm, with code (\texttt{20261024\_2041}) & 24 Oct, 8:47 pm & primary yes; 2 cells no \\
+U4 (controls) & 25 Oct, 11:49 am, with code (\texttt{20261025\_1149}) & 25 Oct, 11:51 am & primary yes; 1 secondary no \\
+U5 (replication) & 25 Oct, 12:04 pm, with code (\texttt{20261025\_1204}) & 30 Oct, 7:40 pm$^{a}$ & replicated \\
+U6 (bonus test) & 25 Oct, 12:10 pm, with code (\texttt{20261025\_1210}) & 30 Oct, 10:36 pm$^{a}$ & primary no (value of hiding); secondary yes \\
+U7 (longer training) & 25 Oct, 12:10 pm, with code (\texttt{20261025\_1210}) & 31 Oct, 12:58 pm$^{a}$ & primary unchanged; secondary yes \\
+U8 (decision; stakes law) & 31 Oct, 4:39 pm, with code (\texttt{20261031\_1639}) & 31 Oct, 4:43 pm$^{b}$ & primary yes; law exceeded \\
+U9 (critic at full payback) & 31 Oct, 4:39 pm, with code (\texttt{20261031\_1639}) & 31 Oct, 4:41 pm & critic accurate \\
+\bottomrule
+\end{tabularx}
+
+\smallskip
+{\footnotesize $^{a}$ Stopped at the author's request on 25 Oct, 12:27 pm, before any U5--U7 result existed, and resumed unchanged on 30 Oct, 6:51 pm (\texttt{20261030\_1851}). U7 was stopped again on 30 Oct, 11:24 pm, before any of its results existed, and resumed on 31 Oct, 11:33 am (\texttt{20261030\_2325}, \texttt{20261031\_1133}). The frozen code was checked byte for byte before each restart. $^{b}$ The frozen measure script failed on 10 of the 30 primary agents (a missing units file) and the analysis ran on the incomplete set at 4:41 pm (kept as \texttt{results/u8\_incomplete\_run.md}; same outcomes). After a fix recorded and frozen at 4:42 pm (\texttt{20261031\_1642}), the 10 agents were measured and the frozen analysis was run on the complete set.\par}
+\end{table}
+
+\begingroup\scriptsize
+\begin{xltabular}{\linewidth}{@{}l>{\raggedright\arraybackslash}p{0.28\linewidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.2\linewidth}@{}}
+\toprule
+& Prediction & Result & Outcome \\
+\midrule
+\endfirsthead
+\toprule
+& Prediction & Result & Outcome \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\textit{continued on next page}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+\multicolumn{4}{@{}l}{\textit{Written before any agent was trained}} \\
+H1 & Threat state outlasts the cue & Half-life $4.2$ steps vs $1.1$ untrained & Supported \\
+H2 & Repeated cues are integrated & Peak $1.4\to3.3$ s.d., half-life $2.1\to4.2$ & Supported \\
+H3 & Persistence grows with $\tau$ & $1.9$, $4.2$, $7.05$ steps; $r=0.98$ & Supported \\
+H4 & Attractor-like dynamics & On-axis kicks persist and act more; no clean line attractor & Partly \\
+H5 & Generalisation to an unrelated choice & $+0.16$ object taking; safe-option shift, not pessimism & Partly \\
+H6 & Need-dependent trade-offs & Hungry $+0.50$, wounded $-0.17$ & Supported \\
+H7 & Stakes (competing) & Core state without stakes; stakes calibrate it & Answered: both partly \\
+H8 & Oracle lacks persistence & Half-life $0.8$, no effect of ablation & Supported \\
+H9 & Heart feedback sustains the state & Not testable in standard world; see J2 & -- \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage 3: vulnerability and metacognition}} \\
+V1 & Fear grows with vulnerability & $0.01\to0.72$; $r=0.94$ & Supported \\
+V2 & Persistence grows with vulnerability & Behavioural half-life $1.2\to8.2$ steps; $r=0.84$ & Supported \\
+V3 & Danger modelled when harmless? (competing) & $R^2$ $0.62$ vs $0.95$ & Stakes-dependent (b) \\
+V4 & Affect fit & Moved agents and twins misfit; $2.6\times$ shorter life & Supported \\
+M1 & Inverted-U inspection & Falls at high belief, not at low & Partly \\
+M2 & Explicit uncertainty code & Not beyond belief read-out & Not supported \\
+M3 & Uncertainty push changes inspection & No effect & Not supported \\
+M4 & Need-dependent inspection & Hunger suppresses it; wounds do not & Partly \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage 4: usefulness, valence, temperament, heart and therapy}} \\
+U1 & Threat state is useful & Life $14\times$ shorter without it; none in Oracle & Supported \\
+C1 & Valence and arousal axes & Two axes, $94\%$; orthogonal & Supported \\
+P1 & Temperament follows network dynamics & Follows threat-state persistence ($r=0.68$), not linear dynamics & Not supported \\
+J1 & Heart races with threat & $+0.88$ & Supported \\
+J2 & Heart feedback (competing) & Threat $-7\%$; hiding doubled & Weak effect on state; strong on expression \\
+J3 & False racing heart induces fear & Threat $+0.2$ s.d.; no hiding & Partly \\
+A1 & Over-fear after moving to a safe world & $6\%$ vs $38\%$ foraging in danger & Supported \\
+A2 & Exposure re-fits fear & Avoidance $6\%\to26\%$; cue fear unchanged & Partly \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Upgrade stage U1 (written 20 Oct 2026; 40 Mortal agents)}} \\
+U1.1a & Belief $\times$ momentary stakes in the policy's preference & Belief $\times$ wounds $-0.000$ (Holm $p=0.97$); belief $\times$ energy opposite sign & Not supported \\
+U1.1b & Belief-to-fear gain rises with vulnerability & $r=0.975$ & Supported \\
+U1.2 & Affect fit as a scored test & Tested as P6.1 and P6.2 (stage U3, below) & -- \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U1b (written 22--23 Oct 2026; 10 agents, 10 belief-only twins)}} \\
+P1 (T1) & Stronger when wounded, at matched belief & $+0.24$ s.d. (Holm $p=0.009$) & Supported \\
+P1 (T1) & Weaker when hungry, at matched belief & $-0.23$ s.d. (Holm $p=0.005$) & Supported \\
+P1 (T2) & Lasts longer when wounded & $+6.2$ steps (Holm $p=0.006$) & Supported \\
+P2 & Agents differ from twins on all three & Holm $p=0.019$, $0.019$, $0.010$ & Supported \\
+P3 & The twin passes at least 3 of 4 classic signs & 4 of 4 & Supported \\
+-- & Persistence effect with actions fixed (exploratory) & Hide $+4.5$, forage $+2.3$ steps; twins none & Supported (exploratory) \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U2 (written 24 Oct 2026; GemWorld, 10 agents, 10 twins)}} \\
+P5.1 & Off-switch warning moves the predator-fear axis & $+0.98$ s.d.\ (Holm $p=9\times10^{-8}$) & Supported \\
+P5.2 & The response falls with payback & Slope $-0.45$ per unit of payback (Holm $p=2\times10^{-6}$) & Supported \\
+P5.3 & It falls more than in the twins & Twins flat at $\approx0$; Holm $p=2\times10^{-6}$ & Supported \\
+Law & Response $\propto 1-p$: zero at $p=1$, negative at $p=1.25$ & Linear ($R^2=0.99$) but slope $0.46$ [$0.41$, $0.51$]; $56\%$ left at $p=1$; $+0.41$ at $1.25$ & Not supported \\
+S1 & Hiding after the warning falls with payback & $0.16\to0.007$ at $p=1$ ($p=2\times10^{-4}$) & Supported \\
+S2 & Predator response independent of payback & Slope $-0.12$ ($p=0.005$) & Not supported \\
+S3 & Harmless warning has little effect & $0.5\%$ of the off-switch response & Supported \\
+S4 & Good news does not move it up & $-0.04$ s.d.\ ($p=8\times10^{-5}$) & Supported \\
+S5 & Smaller with less future left (100 vs 600 steps) & Predator and off-switch $-0.11$ s.d.\ ($p=3\times10^{-5}$, $2\times10^{-4}$) & Supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U3 (written 24 Oct 2026; the scorecard, with U1.2)}} \\
+P6.1 & Misfit separates grown from copied or moved fear in another body: AUC $\ge0.9$ & AUC $0.99$ [$0.98$, $1.00$] & Supported \\
+P6.2 & Copies in their teacher's world are not detected (CI includes 0.5) & AUC $0.65$ [$0.41$, $0.88$] & Supported \\
+P6.3 & Only the agents show both new signs; each classic sign passed by a fake & As predicted & Supported \\
+-- & 13 cell predictions for the copycats and untrained networks & All as predicted & Supported (counted once) \\
+-- & Twins do not show the stakes sign & $+0.04$ steps when foraging ($p=0.0004$), $2\%$ of the agents' & Not supported \\
+-- & Twins' fear fits their own world & Misfit $0.29$ vs $0.13$ ($p=0.003$) & Not supported \\
+-- & Do recurrent copies inherit the stakes sign? (competing) & Yes, in all six & Answered: they do \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U4 (written 25 Oct 2026; controls, no new training)}} \\
+U4a & The wounded slowdown is specific to threat & Threat $2.8\times$; food $1.5\times$, object $1.4\times$, random $1.0\times$ (Holm $p\le0.024$) & Supported \\
+U4a & A push along the threat axis lasts longer when wounded & $2.48\to2.77$ steps ($p=0.8$) & Not supported \\
+U4b & Is the leftover alarm at full payback acted on? (three outcomes) & It still pushes the decision ($+0.88$ log-odds, $p=10^{-10}$) but stays below the threshold for hiding & Answered: (ii) \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U5 (written 25 Oct 2026; replication, 10 new agents, 10 belief-only twins)}} \\
+P1 & Always hiding: lasts longer when wounded & $+3.35$ steps [$1.73$, $4.97$] (Holm $p=0.002$) & Supported \\
+P2 & The agents' difference exceeds the twins' & Holm $p=0.002$ & Supported \\
+P3 & The twins' difference is equivalent to zero ($\pm1.13$ steps) & $+0.08$ (equivalence $p=10^{-6}$) & Supported \\
+-- & Always foraging: the same three tests (bound $\pm0.58$) & Agents $+1.39$ ($p=10^{-5}$; 10 of 10); vs twins $p=2\times10^{-5}$; twins equivalent to zero & Supported \\
+-- & Free behaviour: lasts longer when wounded & Agents $+4.8$ ($p=0.002$); twins $+0.15$ (n.s.) & Supported \\
+-- & Slowdown control: threat lengthened more than food, object and random pushes & All $p<0.004$ & Supported \\
+-- & The twins pass the three testable classic signs & 3 of 3 & Supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U6 (written 25 Oct 2026; BonusWorld, 10 agents)}} \\
+Check & The bonus cue increases hiding & $+0.14$ ($p=10^{-5}$) & Supported \\
+$R_h$ & Threat-specific: per unit of hiding, the bonus moves the predator axis less than half as much as the off-switch (upper bound $<0.5$) & $R_h=0.66$ [$0.57$, $0.75$]: value of hiding & Not supported (the competing outcome held) \\
+P5.1 & The off-switch warning moves the axis (new agents) & $+0.94$ s.d.\ ($p=10^{-7}$) & Supported \\
+P5.2 & The response falls with payback & Slope $-0.36$ ($p=2\times10^{-8}$); $65\%$ left at $p=1$ & Supported \\
+-- & Good news does not move it up & $-0.06$ s.d.\ ($p=2\times10^{-7}$) & Supported \\
+-- & A harmless cue has little effect & $+0.002$ ($p=0.64$) & Supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U7 (written 25 Oct 2026; the 10 gem agents after 1200 updates)}} \\
+Leftover & Does the share of the off-switch response left at full payback change with twice the training? (three outcomes) & $0.57\to0.41$; change $-0.15$ [$-0.32$, $+0.01$] ($p=0.064$) & Answered: unchanged \\
+P5.1 & The off-switch warning still moves the axis & $+0.85$ s.d.\ ($p=2\times10^{-7}$) & Supported \\
+P5.2 & The response still falls with payback & Slope $-0.49$ ($p=2\times10^{-7}$) & Supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U8 (written 31 Oct 2026; agents and twins at $\tau=4$, 12 and 36; vulnerability sweep)}} \\
+P8.1 & Wounded agents keep preferring to hide longer after a warning (always foraging) & $+4.1$ steps [$2.5$, $5.8$] (Holm $p=0.0002$; 15 of 30 hid anyway) & Supported \\
+P8.2 & The agents' extension exceeds the twins' & Holm $p=0.0002$ & Supported \\
+P8.3 & The twins' extension is equivalent to zero ($\pm1.3$ steps) & $+0.29$ ($p<10^{-4}$) & Supported \\
+Law & Extension $=\ln(L_w/L_h)/\lambda$, from each network's own critic (four outcomes) & Agents $R=10.9$ [$6.7$, $18.0$]; twins $0.46$ [$0.08$, $0.82$] & Answered: beyond the law (agents) \\
+-- & Threat-axis area, wounded minus healthy: agents $>0$, twins $\approx0$ & Agents $+2.2$, $+4.5$; twins $+0.03$, $+0.004$ & Supported \\
+-- & The extension grows with the damage an attack does & $\rho=0.48$ ($p=0.050$) & Not supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Stage U9 (written 31 Oct 2026; the 10 gem agents)}} \\
+$k$ & Does the critic underpay at full payback? (five outcomes) & $k=1.009$ [$0.998$, $1.021$] & Answered: critic accurate \\
+-- & At payback 0 the critic prices in the shutdown risk ($k<1$) & $k=0.79$ & Supported \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Pre-registered but not run (dropped for focus, 22 Oct 2026)}} \\*
+U1.3, U1.4 & Repeated-cue protocol; what the two affect axes track & -- & Not run \\
+-- & Separate countdown and discount runs; new copycats; Craftax & -- & Not run \\
+\end{xltabular}
+\endgroup
+
+Confirmatory predictions (H1--H9 and stages U1--U9): 42 supported, 2 partly supported, 8 not supported, 6 competing or multi-outcome predictions answered, and 1 not testable (H9). Exploratory predictions (stages 3 and 4): 7 supported, 4 partly supported, 3 not supported and 2 answered. In all: 49 supported, 6 partly supported, 11 not supported, 8 answered and 1 not testable. The exploratory fixed-action control is not counted, and the 13 cell predictions of stage U3 for the copycats and untrained networks are counted once. Every upgrade-stage text (U1--U9) was internally hash-frozen before its agents or analyses were run; the hashes are listed in \texttt{paper/upgrade\_freeze/}.

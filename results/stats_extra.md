@@ -1,0 +1,26 @@
+- capacity: life vs log2(hidden): slope=3544, r=0.7548, p=1.303e-05, n=25
+- capacity: r2_belief vs log2(hidden): slope=0.02399, r=0.6768, p=0.0002034, n=25
+- capacity: threat_var_frac vs log2(hidden): slope=-0.07868, r=-0.8272, p=3.425e-07, n=25
+- capacity: participation_ratio vs log2(hidden): slope=0.088, r=0.4017, p=0.04654, n=25
+- capacity: hl_proj_4 vs log2(hidden): slope=-0.05184, r=-0.1431, p=0.495, n=25
+- capacity: peak_proj_4 vs log2(hidden): slope=0.1291, r=0.7396, p=2.397e-05, n=25
+- capacity: la_score vs log2(hidden): slope=-0.08628, r=-0.1334, p=0.5249, n=25
+- capacity: abl_threat_life vs log2(hidden): slope=1918, r=0.8536, p=5.829e-08, n=25
+- capacity: abl_rand_life vs log2(hidden): slope=2468, r=0.9034, p=6.264e-10, n=25
+- capacity: after_supp_4 vs log2(hidden): slope=0.05367, r=0.56, p=0.003598, n=25
+- capacity: mood_late vs log2(hidden): slope=-0.001314, r=-0.1921, p=0.3576, n=25
+- capacity h=16: log lifetime ratio, threat vs random ablation: mean=-2.005, sem=0.1656, t=-12.11, p=6.783e-05, n=6
+- capacity h=64: log lifetime ratio, threat vs random ablation: mean=-2.672, sem=0.178, t=-15.01, p=1.122e-07, n=10
+- capacity h=256: log lifetime ratio, threat vs random ablation: mean=-0.6265, sem=0.06929, t=-9.042, p=0.0002766, n=6
+- capacity h=1024: log lifetime ratio, threat vs random ablation: mean=-0.5904, sem=0.2968, t=-1.989, p=0.1849, n=3
+- mortal: late suppression after chronic stress (+15..+40): mean=0.0002138, sem=0.0005038, t=0.4243, p=0.6813, n=10
+- mortal: late threat-axis activity after chronic stress: mean=-0.0002999, sem=0.000443, t=-0.6769, p=0.5155, n=10
+- mortal: ideal-observer late belief excess: mean=0.0001091, sem=0, t=inf, p=0, n=10
+- seasonal: late suppression after chronic stress (+15..+40): mean=-0.01178, sem=0.004571, t=-2.578, p=0.04957, n=6
+- seasonal: late threat-axis activity after chronic stress: mean=0.04792, sem=0.02476, t=1.936, p=0.1107, n=6
+- seasonal: ideal-observer late belief excess: mean=0.04928, sem=0, t=inf, p=0, n=6
+- seasonal: late mood-axis activity after chronic stress: mean=0.2226, sem=0.1057, t=2.106, p=0.08909, n=6
+- late suppression | seasonal vs mortal: mean_a=-0.01178, mean_b=0.0002138, t=-2.609, p=0.04665, n_a=6, n_b=10
+- seasonal: season belief decodable (R2): mean=0.645, sem=0.0304, t=21.22, p=4.31e-06, n=6
+- seasonal: true season decodable (R2): mean=0.2587, sem=0.01405, t=18.41, p=8.69e-06, n=6
+- seasonal: cos(threat axis, mood axis): mean=0.6283, sem=0.03732, t=16.83, p=1.352e-05, n=6

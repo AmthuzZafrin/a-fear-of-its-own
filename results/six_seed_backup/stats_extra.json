@@ -1,0 +1,174 @@
+{
+ "capacity: life vs log2(hidden)": {
+  "slope": 3605.5439722268106,
+  "r": 0.7675128658936001,
+  "p": 4.8867906316458106e-05,
+  "n": 21
+ },
+ "capacity: r2_belief vs log2(hidden)": {
+  "slope": 0.02488981684048971,
+  "r": 0.7068274590104446,
+  "p": 0.00034053877538910263,
+  "n": 21
+ },
+ "capacity: threat_var_frac vs log2(hidden)": {
+  "slope": -0.0760586957853192,
+  "r": -0.8619754472395044,
+  "p": 5.114329980925243e-07,
+  "n": 21
+ },
+ "capacity: participation_ratio vs log2(hidden)": {
+  "slope": 0.07757532443755714,
+  "r": 0.4018006686880098,
+  "p": 0.07099608341271797,
+  "n": 21
+ },
+ "capacity: hl_proj_4 vs log2(hidden)": {
+  "slope": -0.037749019978223546,
+  "r": -0.11691976887998896,
+  "p": 0.6137539329927089,
+  "n": 21
+ },
+ "capacity: peak_proj_4 vs log2(hidden)": {
+  "slope": 0.13101370670856574,
+  "r": 0.7476775572264498,
+  "p": 9.772015321968903e-05,
+  "n": 21
+ },
+ "capacity: la_score vs log2(hidden)": {
+  "slope": -0.06349391411486541,
+  "r": -0.10505248488439257,
+  "p": 0.6504117626094008,
+  "n": 21
+ },
+ "capacity: abl_threat_life vs log2(hidden)": {
+  "slope": 1874.822070188312,
+  "r": 0.8606223945256228,
+  "p": 5.580052624481563e-07,
+  "n": 21
+ },
+ "capacity: abl_rand_life vs log2(hidden)": {
+  "slope": 2526.5944958683417,
+  "r": 0.9301058192123169,
+  "p": 1.0479886279150473e-09,
+  "n": 21
+ },
+ "capacity: after_supp_4 vs log2(hidden)": {
+  "slope": 0.058091001322445206,
+  "r": 0.6464517946741921,
+  "p": 0.001543145691662052,
+  "n": 21
+ },
+ "capacity: mood_late vs log2(hidden)": {
+  "slope": -0.0012393853406572415,
+  "r": -0.18132912956245686,
+  "p": 0.4315003520654561,
+  "n": 21
+ },
+ "capacity h=16: log lifetime ratio, threat vs random ablation": {
+  "mean": -2.004783694600205,
+  "sem": 0.16555076338235075,
+  "t": -12.109782242260165,
+  "p": 6.782723980926976e-05,
+  "n": 6
+ },
+ "capacity h=64: log lifetime ratio, threat vs random ablation": {
+  "mean": -2.638217210745814,
+  "sem": 0.23848451581013386,
+  "t": -11.062425590960355,
+  "p": 0.00010513843094926273,
+  "n": 6
+ },
+ "capacity h=256: log lifetime ratio, threat vs random ablation": {
+  "mean": -0.6264647853768538,
+  "sem": 0.0692876976170176,
+  "t": -9.041500972360051,
+  "p": 0.00027656776647126837,
+  "n": 6
+ },
+ "capacity h=1024: log lifetime ratio, threat vs random ablation": {
+  "mean": -0.5903929205093448,
+  "sem": 0.296759195311387,
+  "t": -1.9894679923560592,
+  "p": 0.18494422215375192,
+  "n": 3
+ },
+ "mortal: late suppression after chronic stress (+15..+40)": {
+  "mean": 0.0002906985816177136,
+  "sem": 0.0008696622511339226,
+  "t": 0.33426606850956425,
+  "p": 0.7517437380059171,
+  "n": 6
+ },
+ "mortal: late threat-axis activity after chronic stress": {
+  "mean": -0.00037265140690578846,
+  "sem": 0.0007246442313987024,
+  "t": -0.514254293015622,
+  "p": 0.6289886726629517,
+  "n": 6
+ },
+ "mortal: ideal-observer late belief excess": {
+  "mean": 0.00010907143587246537,
+  "sem": 0.0,
+  "t": Infinity,
+  "p": 0.0,
+  "n": 6
+ },
+ "seasonal: late suppression after chronic stress (+15..+40)": {
+  "mean": -0.011782081655837828,
+  "sem": 0.00457080666038682,
+  "t": -2.5776810377800428,
+  "p": 0.04957127676524645,
+  "n": 6
+ },
+ "seasonal: late threat-axis activity after chronic stress": {
+  "mean": 0.04792265251793045,
+  "sem": 0.024758397930101653,
+  "t": 1.9356120154957739,
+  "p": 0.11069137654229987,
+  "n": 6
+ },
+ "seasonal: ideal-observer late belief excess": {
+  "mean": 0.04928388446569443,
+  "sem": 0.0,
+  "t": Infinity,
+  "p": 0.0,
+  "n": 6
+ },
+ "seasonal: late mood-axis activity after chronic stress": {
+  "mean": 0.22262488890555687,
+  "sem": 0.10571854444503508,
+  "t": 2.105826277444668,
+  "p": 0.0890922473706072,
+  "n": 6
+ },
+ "late suppression | seasonal vs mortal": {
+  "mean_a": -0.011782081655837828,
+  "mean_b": 0.0002906985816177136,
+  "t": -2.5947321202060643,
+  "p": 0.04544864625269302,
+  "n_a": 6,
+  "n_b": 6
+ },
+ "seasonal: season belief decodable (R2)": {
+  "mean": 0.6450492839018503,
+  "sem": 0.030400212235712196,
+  "t": 21.21857830795301,
+  "p": 4.3096550428904076e-06,
+  "n": 6
+ },
+ "seasonal: true season decodable (R2)": {
+  "mean": 0.25865013400713605,
+  "sem": 0.014046872224065912,
+  "t": 18.41336134345992,
+  "p": 8.689834447392634e-06,
+  "n": 6
+ },
+ "seasonal: cos(threat axis, mood axis)": {
+  "mean": 0.6282643576463064,
+  "sem": 0.0373199731107242,
+  "t": 16.834534038444136,
+  "p": 1.3521287480448346e-05,
+  "n": 6
+ }
+}
