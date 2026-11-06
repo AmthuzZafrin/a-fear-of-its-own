@@ -44,4 +44,5 @@ python3 verify_freeze.py     # checks every frozen copy against its recorded SHA
 An AI assistant (Claude, Anthropic) wrote much of this code and ran the experiments under the author's direction. The paper's AI-use statement gives the details.
 
 ## Licence
-To be added.
+- **Code:** MIT License (see `LICENSE`).
+- **Paper, figures and data:** Creative Commons Attribution 4.0 International (CC BY 4.0; see `LICENSE-CC-BY-4.0.md`).

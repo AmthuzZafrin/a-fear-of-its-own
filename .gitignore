@@ -75,3 +75,5 @@ __pycache__/
 !/paper/appendix_results.tex
 !/paper/paper.pdf
 !/paper/upgrade_freeze/
+!/LICENSE
+!/LICENSE-CC-BY-4.0.md
