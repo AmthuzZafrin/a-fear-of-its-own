@@ -1,9 +1,11 @@
 # A Fear of Its Own?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24054486.svg)](https://doi.org/10.5281/zenodo.24054486)
+
 Code, data and pre-registration record for the paper
 
 > **A Fear of Its Own? Telling Fear from Belief and Imitation in Agents Trained Without Human Data**
-> Amthuz Zafrin F (Independent Researcher), 2026. arXiv: *link to be added*.
+> Amthuz Zafrin F (Independent Researcher), 2026. Preprint on Zenodo, free to read: https://doi.org/10.5281/zenodo.24054486
 
 Small recurrent agents learn from scratch, with no human data, to keep a vulnerable body alive under hidden danger (VitalWorld). They are tested with the criteria used to recognise emotion states in animals. They are also tested against fakes built to pass those criteria:
 - a **belief-only twin**, whose memory holds nothing but a belief about danger;
@@ -42,6 +44,20 @@ python3 verify_freeze.py     # checks every frozen copy against its recorded SHA
 
 ## Use of AI assistance
 An AI assistant (Claude, Anthropic) wrote much of this code and ran the experiments under the author's direction. The paper's AI-use statement gives the details.
+
+## How to cite
+F, A. Z. (2026). *A Fear of Its Own? Telling Fear from Belief and Imitation in Agents Trained Without Human Data*. Zenodo. https://doi.org/10.5281/zenodo.24054486
+
+```bibtex
+@misc{zafrin2026fear,
+  author    = {F, Amthuz Zafrin},
+  title     = {A Fear of Its Own? Telling Fear from Belief and Imitation in Agents Trained Without Human Data},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24054486},
+  url       = {https://doi.org/10.5281/zenodo.24054486}
+}
+```
 
 ## Licence
 - **Code:** MIT License (see `LICENSE`).
